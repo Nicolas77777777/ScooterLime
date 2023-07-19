@@ -1,0 +1,113 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image:url(./img/background.jpg);
+    background-size: cover  ;
+    background-position: center;
+}
+
+.Square{
+    margin:auto;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 1200px;
+    height: 700px;
+    padding: 40px 50px 50px 50px;
+    border: 0 solid 0;
+    border-radius: 5%;
+    background-size: cover;
+}
+
+/* Header */
+
+.headerContainer{
+    width: 1000px;
+    margin:0;
+    text-align: center;
+}
+
+.logo{
+    width: 250px;  
+}
+
+.logoText{
+
+    font-size: 35px;
+    color: #00dd00;
+}
+h1{
+    margin: auto;
+}
+
+/* Nav */
+
+.navContainer{
+    width: 900px;
+    height: 50px;
+    margin:auto;
+    background-color: #00dd00;
+    border: 1px solid black;
+}
+
+.buttonNav{
+
+    text-align: center;
+    margin: 15px;
+    
+}
+
+/* Main */
+
+main{
+
+    margin: auto;
+    margin-left: 150px;
+}
+
+.sectionMono {
+
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+.text-adress{
+
+    font-size: 19px;
+}
+
+.statoCarica {
+
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Stato Carica */
+.loadOrange{
+    width: 500px;
+    height: 20px;
+    margin:2px;
+    background-color:orange;
+    border: 1px solid black;
+    border-top-width: 5%;
+}
+
+.loadGrenn {
+    width: 300px;
+    height: 20px;
+    margin:2px;
+    background-color:#00dd00;
+    border: 1px solid black;
+}
+
+.loadRed {
+    width: 150px;
+    height: 20px;
+    margin:2px;
+    background-color:red;
+    border: 1px solid black;
+}
+
+
